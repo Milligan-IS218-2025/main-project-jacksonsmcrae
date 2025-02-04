@@ -6,6 +6,18 @@
     overflow: hidden;
   }
 
+  .topnav ul {
+    display: flex;              
+    list-style: none;           
+    padding: 0;                 
+    margin: 0;                  
+    gap: 15px;
+  }
+
+.topnav li {
+    display: flex;
+}
+
   .topnav a {
     float: left;
     color: #f2f2f2;
