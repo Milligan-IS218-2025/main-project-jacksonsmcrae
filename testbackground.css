@@ -1,5 +1,5 @@
-body {
-    background-image: url("Web Dev Images/bowlingalley.jpg"),linear-gradient(white,black);
+.overlay {
+    background-image: linear-gradient(white,black), url("Web Dev Images/bowlingalley.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
