@@ -15,3 +15,16 @@ html {
     background-attachment: fixed;
     background-size: cover;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 25px;
+    padding: 10px;
+}
+
+.grid > div {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
