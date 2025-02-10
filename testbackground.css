@@ -1,4 +1,4 @@
-.overlay {
+html {
     background-image: linear-gradient(white,black), url("Web Dev Images/bowlingalley.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
