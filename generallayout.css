@@ -19,6 +19,7 @@ html {
 body {
     margin-left: 150px;
     margin-right: 150px;
+    background-color: rgba(85, 83, 83, .3);
 }
 
 .grid {
