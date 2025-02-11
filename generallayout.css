@@ -9,6 +9,10 @@ nav > ul {
     color: rgb(85, 83, 83);
 }
 
+h1 {
+    outline: 1px solid black;
+}
+
 h2 {
     font-size: 25px;
     text-align: center;
