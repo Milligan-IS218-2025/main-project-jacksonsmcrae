@@ -37,4 +37,9 @@ html {
 
 .grid a {
     text-align: center;
+    padding: 20px;
+}
+
+.grid a:hover {
+    border: 1px solid black;
 }
