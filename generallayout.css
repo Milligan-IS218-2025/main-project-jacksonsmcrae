@@ -38,6 +38,7 @@ html {
 .grid a {
     text-align: center;
     padding: 20px;
+    text-decoration: none;
 }
 
 .grid a:hover {
