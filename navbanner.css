@@ -1,8 +1,7 @@
 .topnav {
     background-color: rgb(85, 83, 83);
     overflow: hidden;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin: 0;
 }
 
 .topnav ul {
