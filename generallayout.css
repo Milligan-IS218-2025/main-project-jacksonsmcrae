@@ -30,7 +30,7 @@ html {
 
 .grid {
     display: grid;
-    grid-template-rows: 200px 200px;
+    grid-template-rows: auto auto;
     gap: 25px;
     padding: 10px;
 }
