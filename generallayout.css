@@ -44,3 +44,7 @@ html {
 .grid a:hover {
     border: 1px solid black;
 }
+
+.grid img{
+    size: auto;
+}
