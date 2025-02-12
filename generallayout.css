@@ -30,7 +30,8 @@ html {
 
 .grid {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 1032px 1032px 1032px 1032px;
+    grid-template-rows: 1250px 1250px 1250px 1250px;
     gap: 25px;
     margin: 20px 0;
 }
