@@ -46,6 +46,11 @@ html {
     outline: 1px solid black;
 }
 
+.grid div {
+    width: 200px;
+    height: 287.75;
+}
+
 .grid img {
     width: 200px;
     height: 235px;
