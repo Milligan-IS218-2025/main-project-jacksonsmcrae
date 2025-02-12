@@ -32,15 +32,22 @@ html {
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 25px;
-    padding: 10px;
+    margin: 20px 0;
 }
 
 .grid a {
     text-align: center;
     padding: 20px;
     text-decoration: none;
+    width: 250px;
+    height: 360px;
 }
 
 .grid a:hover {
     outline: 1px solid black;
+}
+
+.grid img {
+    width: 200px;
+    height: 235px;
 }
