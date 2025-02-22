@@ -1,0 +1,57 @@
+nav > ul {
+    list-style-type: none;
+}
+
+.mainheading {
+    font-size: 75px; 
+    text-align: center;
+    margin: 20px 0;
+    color: rgb(85, 83, 83);
+    text-shadow: 2px 2px black;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+html {
+    background-image: linear-gradient(rgba(255,255,255,0.6),rgba(0,0,0,0.75)), url("Web Dev Images/bowlingalley.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.content {
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: rgba(85, 83, 83, .75);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 25px;
+    padding: 10px;
+}
+
+.grid a {
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.grid a:hover {
+    outline: 1px solid black;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+footer {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
