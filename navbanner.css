@@ -13,12 +13,7 @@
     margin: 0;                  
 }
 
-.topnav li {
-    display: flex;
-}
-
 .topnav a {
-    float: left;
     color: white;
     text-align: center;
     padding: 14px 16px;
