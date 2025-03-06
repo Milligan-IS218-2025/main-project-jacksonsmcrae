@@ -1,4 +1,4 @@
-.topnav {
+.topnav{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,6 +10,8 @@
 
 .topnav ul {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-flow: row wrap;                 
     padding: 0;                 
     margin: 20px;                  
@@ -32,3 +34,41 @@
     background-color: rgb(4, 170, 109);
     color: white;
 }
+
+.dropdown {
+    overflow: hidden;
+}
+
+.dropdown .dropbutton {
+    font-size: 27px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: rgb(4, 170, 109);
+    font-family: inherit; 
+  }
+
+  .dropcontent{
+    display: none;
+    position: absolute;
+    background-color: rgb(85, 83, 83);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+
+  .dropcontent a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 27px;
+  }
+
+  .dropcontent li{
+    margin: 13.5px 0;
+  }
+
+  .dropdown:hover .dropcontent{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
