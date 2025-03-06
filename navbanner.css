@@ -1,14 +1,16 @@
 .topnav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(85, 83, 83);
     overflow: hidden;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 7.95%;
+    margin-right: 7.95%;
 }
 
 .topnav ul {
     display: flex;
-    justify-content: center;
-    align-items: center;                         
+    flex-flow: row wrap;                 
     padding: 0;                 
     margin: 20px;                  
 }
