@@ -26,7 +26,8 @@
     font-family:monospace;
 }
 
-.topnav a:hover {
+.topnav a:hover, 
+.dropbutton2:hover {
     background-color: white;
     color: black;
 }
@@ -56,15 +57,9 @@
     outline: none;
     color: white;
     padding: 14px 16px;
-    background-color: rgb(85, 83, 83);;
+    background-color: rgb(85, 83, 83);
     font-family: inherit; 
   }
-
-  .dropbutton2:hover{
-    background-color: white;
-    color: black;
-  } 
-
 
   .dropcontent{
     display: none;
@@ -87,5 +82,5 @@
   .dropdown:hover .dropcontent{
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
   }
