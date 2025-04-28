@@ -2,7 +2,7 @@ nav > ul {
     list-style-type: none;
 }
 
-.mainheading {
+h1 {
     font-size: 75px; 
     text-align: center;
     margin: 20px 0;
