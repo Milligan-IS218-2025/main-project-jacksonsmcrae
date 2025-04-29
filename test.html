@@ -14,15 +14,17 @@
         <ul>
             <li><a href="about.html">About</a></li> 
             <li><a href="index.html">Index</a></li>
-            <button>
-                <a class="active" href="test.html">test <symbol>&#9776;</symbol></a>
-            </button>
-            <ul class="dropcontent">
-                <li><a href="hammer.html">Hammer</a></li>
-                <li><a href="columbia300.html">Columbia 300</a></li>
-                <li><a href="storm.html">Storm</a></li>
-                <li><a href="900global.html">900 Global</a></li>
-            </ul>            
+            <div class="dropdown">
+                <button>
+                    <a class="active" href="test.html">test <symbol>&#9776;</symbol></a>
+                </button>
+                <ul class="dropcontent">
+                    <li><a href="hammer.html">Hammer</a></li>
+                    <li><a href="columbia300.html">Columbia 300</a></li>
+                    <li><a href="storm.html">Storm</a></li>
+                    <li><a href="900global.html">900 Global</a></li>
+                </ul>
+            </div>            
         </ul>
     </nav>
     <main> 
@@ -75,6 +77,127 @@
             <h2>Silver Sniper</h2>
         </a>
     </main>
+    <p>
+        Click on the button to create
+        a form dynamically
+      </p>
+      <button onClick="GFG_Fun()">
+          click here
+      </button>
+      <p id="GFG_DOWN"></p>
+      <script>
+        function GFG_Fun() {
+            var down = document.getElementById("GFG_DOWN");
+    
+            // Create a form
+            var form = document.createElement("form");
+            form.setAttribute("method", "post");
+            form.setAttribute("action", "submit.php");
+    
+            // Create a break line element
+            var br = document.createElement("br");
+    
+            // ----- Select 1 -----
+            var select1 = document.createElement("select");
+            select1.name = "select1";
+    
+            var option11 = new Option("Option 1A", "option1A");
+            var option12 = new Option("Option 1B", "option1B");
+            var option13 = new Option("Option 1C", "option1C");
+            var option14 = new Option("Option 1D", "option1D");
+            var option15 = new Option("Option 1E", "option1E");
+            var option16 = new Option("Option 1F", "option1F");
+    
+            select1.append(option11, option12, option13, option14, option15, option16);
+            form.appendChild(select1);
+            form.appendChild(br.cloneNode());
+    
+            // ----- Select 2 -----
+            var select2 = document.createElement("select");
+            select2.name = "select2";
+    
+            var option21 = new Option("Option 2A", "option2A");
+            var option22 = new Option("Option 2B", "option2B");
+            var option23 = new Option("Option 2C", "option2C");
+            var option24 = new Option("Option 2D", "option2D");
+            var option25 = new Option("Option 2E", "option2E");
+            var option26 = new Option("Option 2F", "option2F");
+    
+            select2.append(option21, option22, option23, option24, option25, option26);
+            form.appendChild(select2);
+            form.appendChild(br.cloneNode());
+    
+            // ----- Select 3 -----
+            var select3 = document.createElement("select");
+            select3.name = "select3";
+    
+            var option31 = new Option("Option 3A", "option3A");
+            var option32 = new Option("Option 3B", "option3B");
+            var option33 = new Option("Option 3C", "option3C");
+            var option34 = new Option("Option 3D", "option3D");
+            var option35 = new Option("Option 3E", "option3E");
+            var option36 = new Option("Option 3F", "option3F");
+    
+            select3.append(option31, option32, option33, option34, option35, option36);
+            form.appendChild(select3);
+            form.appendChild(br.cloneNode());
+    
+            // ----- Select 4 -----
+            var select4 = document.createElement("select");
+            select4.name = "select4";
+    
+            var option41 = new Option("Option 4A", "option4A");
+            var option42 = new Option("Option 4B", "option4B");
+            var option43 = new Option("Option 4C", "option4C");
+            var option44 = new Option("Option 4D", "option4D");
+            var option45 = new Option("Option 4E", "option4E");
+            var option46 = new Option("Option 4F", "option4F");
+    
+            select4.append(option41, option42, option43, option44, option45, option46);
+            form.appendChild(select4);
+            form.appendChild(br.cloneNode());
+    
+            // ----- Select 5 -----
+            var select5 = document.createElement("select");
+            select5.name = "select5";
+    
+            var option51 = new Option("Option 5A", "option5A");
+            var option52 = new Option("Option 5B", "option5B");
+            var option53 = new Option("Option 5C", "option5C");
+            var option54 = new Option("Option 5D", "option5D");
+            var option55 = new Option("Option 5E", "option5E");
+            var option56 = new Option("Option 5F", "option5F");
+    
+            select5.append(option51, option52, option53, option54, option55, option56);
+            form.appendChild(select5);
+            form.appendChild(br.cloneNode());
+    
+            // ----- Select 6 -----
+            var select6 = document.createElement("select");
+            select6.name = "select6";
+    
+            var option61 = new Option("Option 6A", "option6A");
+            var option62 = new Option("Option 6B", "option6B");
+            var option63 = new Option("Option 6C", "option6C");
+            var option64 = new Option("Option 6D", "option6D");
+            var option65 = new Option("Option 6E", "option6E");
+            var option66 = new Option("Option 6F", "option6F");
+    
+            select6.append(option61, option62, option63, option64, option65, option66);
+            form.appendChild(select6);
+            form.appendChild(br.cloneNode());
+    
+            // Submit button
+            var submitBtn = document.createElement("input");
+            submitBtn.setAttribute("type", "submit");
+            submitBtn.setAttribute("value", "Submit");
+    
+            form.appendChild(submitBtn);
+    
+            // Append form to body
+            document.body.appendChild(form);
+        }
+    </script>
 </body>
 <footer>
     <p>

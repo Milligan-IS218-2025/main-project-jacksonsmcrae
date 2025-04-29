@@ -35,17 +35,6 @@ main {
     padding: 10px;
 }
 
-section{
-    margin-left: 7.95%;
-    margin-right: 7.95%;
-    background-color: rgba(85, 83, 83, .75);
-}
-
-section article{
-    margin: 0;
-    padding: 10px 0;
-}
-
 main a {
     text-align: center;
     padding: 20px;
@@ -66,25 +55,3 @@ footer {
     color: rgb(255, 255, 255);
 }
 
-table, th, td{
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-
-th{
-    font-size: 25px;
-}
-
-td{
-    font-size: 20px;
-}
-
-.table {
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-}
-
-caption {
-    text-align: center;
-}

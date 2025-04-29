@@ -79,7 +79,7 @@ nav a.active {
     margin: 13.5px 0;
   }
 
-  nav button:hover .dropcontent{
+  .dropdown:hover .dropcontent{
     display: flex;
     flex-direction: column;
     align-items: center;

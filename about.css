@@ -1,0 +1,25 @@
+section{
+    margin-left: 7.95%;
+    margin-right: 7.95%;
+    background-color: rgba(85, 83, 83, .75);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    padding: 50px;
+}
+
+section article{
+    margin: 0;
+    padding: 10px 0;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px black;
+    justify-self: center;
+    align-self: center;
+}
+
+section > img, section > video {
+    justify-self: center;
+    align-self: center;
+}
+

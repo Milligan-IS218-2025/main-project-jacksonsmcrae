@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="navbanner.css">
     <link rel="stylesheet" href="generallayout.css">
     <link rel="stylesheet" href="interactivelayout.css">
+    <link rel="stylesheet" href="index.css">
+
 </head>
 <body>
     <h1>Web Development Final Project</h1>
@@ -26,11 +28,16 @@
             </div>
         </ul>
     </nav>
-    <div class="content">
-        <p>The topic of my website is going to be able bowling balls. <br /> This will include differnet brands of bowlings balls, <br /> different balls from each brand, and specs about each ball.</p>
+    <section>
+        <article>
+            <p>
+                The topic of my website is going to be able bowling balls. This will include differnet brands of bowlings balls, different balls from each brand, and specs about each ball. 
+                Below is a chart that can help you in your process of making your very own arsenal!
+            </p>
+        </article>
         <table class="table">
             <tr>
-                <th>Number System for Bowling Balls</th>
+                <th>Number Bowling Ball</th>
                 <th>Type of Ball</th>
                 <th>RG</th>
                 <th>Diff</th>
@@ -75,7 +82,135 @@
                 Ball chart to help build an arsenal
             </caption>
         </table>
-    </div>
+        <article>
+            Click on the button to build your own arsenal!
+        <article>
+          <button onClick="GFG_Fun()">
+              Build
+          </button>
+          <p id="GFG_DOWN"></p>
+          <script>
+            function GFG_Fun() {
+                var down = document.getElementById("GFG_DOWN");
+        
+                // Create a form
+                var form = document.createElement("form");
+                form.setAttribute("method", "post");
+                form.setAttribute("action", "submit.php");
+                form.classList.add("myForm");
+        
+                // Create a break line element
+                var br = document.createElement("br");
+        
+                // ----- Ball 1 -----
+                var ball1 = document.createElement("select");
+                ball1.name = "ball1";
+        
+                var placeholder1 = new Option("1 Ball", "placeholder1");
+                var option11 = new Option("Option 1A", "option1A");
+                var option12 = new Option("Option 1B", "option1B");
+                var option13 = new Option("Option 1C", "option1C");
+                var option14 = new Option("Option 1D", "option1D");
+                var option15 = new Option("Option 1E", "option1E");
+                var option16 = new Option("Option 1F", "option1F");
+        
+                ball1.append(placeholder1, option11, option12, option13, option14, option15, option16);
+                form.appendChild(ball1);
+                form.appendChild(br.cloneNode());
+        
+                // ----- Ball 2 -----
+                var ball2 = document.createElement("select");
+                ball2.name = "ball2";
+        
+                var placeholder2 = new Option("2 Ball", "placeholder2");
+                var option21 = new Option("Option 2A", "option2A");
+                var option22 = new Option("Option 2B", "option2B");
+                var option23 = new Option("Option 2C", "option2C");
+                var option24 = new Option("Option 2D", "option2D");
+                var option25 = new Option("Option 2E", "option2E");
+                var option26 = new Option("Option 2F", "option2F");
+        
+                ball2.append(placeholder2, option21, option22, option23, option24, option25, option26);
+                form.appendChild(ball2);
+                form.appendChild(br.cloneNode());
+        
+                // ----- Ball 3 -----
+                var ball3 = document.createElement("select");
+                ball3.name = "ball3";
+
+                var placeholder3 = new Option("3 Ball", "placeholder3");
+                var option31 = new Option("Option 3A", "option3A");
+                var option32 = new Option("Option 3B", "option3B");
+                var option33 = new Option("Option 3C", "option3C");
+                var option34 = new Option("Option 3D", "option3D");
+                var option35 = new Option("Option 3E", "option3E");
+                var option36 = new Option("Option 3F", "option3F");
+        
+                ball3.append(placeholder3, option31, option32, option33, option34, option35, option36);
+                form.appendChild(ball3);
+                form.appendChild(br.cloneNode());
+        
+                // ----- Ball 4 -----
+                var ball4 = document.createElement("select");
+                ball4.name = "ball4";
+        
+                var placeholder4 = new Option("4 Ball", "placeholder4");
+                var option41 = new Option("Option 4A", "option4A");
+                var option42 = new Option("Option 4B", "option4B");
+                var option43 = new Option("Option 4C", "option4C");
+                var option44 = new Option("Option 4D", "option4D");
+                var option45 = new Option("Option 4E", "option4E");
+                var option46 = new Option("Option 4F", "option4F");
+        
+                ball4.append(placeholder4, option41, option42, option43, option44, option45, option46);
+                form.appendChild(ball4);
+                form.appendChild(br.cloneNode());
+        
+                // ----- Ball 5 -----
+                var ball5 = document.createElement("select");
+                ball5.name = "ball5";
+        
+                var placeholder5 = new Option("5 Ball", "placeholder5");
+                var option51 = new Option("Option 5A", "option5A");
+                var option52 = new Option("Option 5B", "option5B");
+                var option53 = new Option("Option 5C", "option5C");
+                var option54 = new Option("Option 5D", "option5D");
+                var option55 = new Option("Option 5E", "option5E");
+                var option56 = new Option("Option 5F", "option5F");
+        
+                ball5.append(placeholder5, option51, option52, option53, option54, option55, option56);
+                form.appendChild(ball5);
+                form.appendChild(br.cloneNode());
+        
+                // ----- Ball 6 -----
+                var ball6 = document.createElement("select");
+                ball6.name = "ball6";
+        
+                var placeholder6 = new Option("6 Ball", "placeholder6");
+                var option61 = new Option("Option 6A", "option6A");
+                var option62 = new Option("Option 6B", "option6B");
+                var option63 = new Option("Option 6C", "option6C");
+                var option64 = new Option("Option 6D", "option6D");
+                var option65 = new Option("Option 6E", "option6E");
+                var option66 = new Option("Option 6F", "option6F");
+        
+                ball6.append(placeholder6, option61, option62, option63, option64, option65, option66);
+                form.appendChild(ball6);
+                form.appendChild(br.cloneNode());
+        
+                // Submit button
+                var submitBtn = document.createElement("input");
+                submitBtn.setAttribute("type", "submit");
+                submitBtn.setAttribute("value", "Submit");
+        
+                form.appendChild(submitBtn);
+        
+                // Append form to section
+                document.getElementsByTagName("section")[0]
+                .appendChild(form);
+            }
+        </script>
+    </section>
 </body>
 <footer>
     <p>
