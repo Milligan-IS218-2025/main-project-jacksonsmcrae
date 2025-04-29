@@ -41,23 +41,13 @@ nav a.active {
     overflow: hidden;
 }
 
-.dropdown .dropbutton {
+.dropdown .dropbutton{
     font-size: 27px;
     border: none;
     outline: none;
     color: white;
     padding: 14px 16px;
     background-color: rgb(4, 170, 109);
-    font-family: inherit; 
-  }
-
-  .dropbutton2 {
-    font-size: 27px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: rgb(85, 83, 83);
     font-family: inherit; 
   }
 
