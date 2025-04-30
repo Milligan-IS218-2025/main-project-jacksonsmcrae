@@ -1,0 +1,85 @@
+/* Gives the nav banner its background color and boundaries  */
+nav{   
+    background-color: rgb(85, 83, 83);
+    overflow: hidden;
+    margin-left: 7.95%;
+    margin-right: 7.95%;
+}
+
+/* Centers the links adjusts spacing */
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;                 
+    padding: 0;                 
+    margin: 20px;                  
+}
+
+/* Styles the links that are not active */
+nav a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 27px;
+    font-family:monospace;
+}
+
+/* Styles the links when a mouse is hovered */
+nav a:hover, 
+.dropbutton2:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Styles the active link */
+nav a.active {
+    background-color: rgb(4, 170, 109);
+    color: white;
+}
+
+/* Hides anything outside its boundaries */
+.dropdown {
+    overflow: hidden;
+}
+
+/* Styles the dropbutton which is also the active link */
+.dropdown .dropbutton{
+    font-size: 25px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: rgb(4, 170, 109);
+    font-family: inherit; 
+  }
+
+  /* Styles the content that shows when hovering over the drop down button */
+  .dropcontent{
+    display: none;
+    position: absolute;
+    background-color: rgb(85, 83, 83);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+
+  /* Styles the links in the drop menu */
+  .dropcontent a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 27px;
+  }
+
+  /* Sets boundaries for the drop menu content */
+  .dropcontent li{
+    margin: 13.5px 0;
+  }
+
+  /* Displays the content when hovering over button  */
+  .dropdown:hover .dropcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+

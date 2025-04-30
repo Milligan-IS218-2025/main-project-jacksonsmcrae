@@ -1,0 +1,66 @@
+/* Removes the bullet points */
+nav > ul {
+    list-style-type: none;
+}
+
+/* Styles the h1 headers in all of the files */
+h1 {
+    font-size: 75px; 
+    text-align: center;
+    margin: 20px 0;
+    color: rgb(85, 83, 83);
+    text-shadow: 2px 2px black;
+    font-family:'Courier New', Courier, monospace;
+}
+
+/* Styles the h2 headers in all of the files */
+h2 {
+    font-size: 25px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
+}
+
+/* Creates the background with a gradient applied to the image */
+html {
+    background-image: linear-gradient(rgba(255,255,255,0.6),rgba(0,0,0,0.75)), url("Web Dev Images/bowlingalley.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Styles the main section where the grid of bowling balls is displayed */
+main {
+    margin-left: 7.95%;
+    margin-right: 7.95%;
+    background-color: rgba(85, 83, 83, .75);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    padding: 10px;
+}
+
+/* Centers the balls in the center of the grid section */
+main a {
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+/* Creates an outline around the balls when you hover over them */
+main a:hover {
+    outline: 1px solid black;
+}
+
+/* Sets the ball images to the same size */
+main img {
+    width: 200px;
+    height: 200px;
+}
+
+/* Styles the copywrite code */
+footer {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
