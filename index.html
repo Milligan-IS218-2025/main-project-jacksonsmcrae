@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Header to set up file -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Development Final Project</title>
     <link rel="stylesheet" href="navbanner.css">
     <link rel="stylesheet" href="generallayout.css">
-    <link rel="stylesheet" href="interactivelayout.css">
     <link rel="stylesheet" href="index.css">
     <script src="Form.js" defer></script>
 </head>
 <body>
     <h1>Web Development Final Project</h1>
+
+    <!-- Nav list of links with the active button -->
     <nav>
         <ul>
             <li><a href="about.html">About</a></li>   
@@ -30,6 +32,8 @@
             </div>
         </ul>
     </nav>
+
+    <!-- Main section for table and form -->
     <section>
         <article>
             <p>
@@ -37,6 +41,8 @@
                 Below is a chart that can help you in your process of making your very own arsenal!
             </p>
         </article>
+
+        <!-- Create and set up table -->
         <table class="table">
             <tr>
                 <th>Number Bowling Ball</th>
@@ -84,15 +90,21 @@
                 Ball chart to help build an arsenal
             </caption>
         </table>
+
+        <!-- Start of form code -->
         <article>
             Click on the button to build your own arsenal!
         <article>
-        <button onClick="GFG_Fun()">
+            
+            <!-- Click button to call form function -->
+        <button class="formbtn" onClick="GFG_Fun()">
             Build
         </button>
         <p id="GFG_DOWN"></p>
     </section>
 </body>
+
+<!-- Copywrite Code -->
 <footer>
     <p>
         &copy; 2025 Jackson McRae - Milligan University. All Rights Reserved
